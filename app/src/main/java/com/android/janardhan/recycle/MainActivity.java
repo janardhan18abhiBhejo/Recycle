@@ -25,6 +25,7 @@ public class MainActivity extends Activity
          myadpobj=new MyAdapter(this,getData());
          mycycle.setAdapter(myadpobj);
          //mycycle.setLayoutManager(new GridLayoutManager(this, 4));
+         //added new line comment by jd on 4/5/2016
          mycycle.setLayoutManager(new LinearLayoutManager(this));
      }
 
